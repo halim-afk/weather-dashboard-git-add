@@ -1,12 +1,34 @@
-# React + Vite
+# Weather Dashboard
+## Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Weather Dashboard is a responsive React application that allows users to search for current weather conditions and a 7-day forecast for cities around the world. The project uses the OpenWeatherMap API and Tailwind CSS for styling. It also includes advanced features like theme toggle, recent searches, geolocation, and error handling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Completed Features:
 
-## Expanding the ESLint configuration
+Search for any city to get current weather.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Display temperature, humidity, wind speed, and weather icons.
+
+Automatic weather updates every 10 minutes.
+
+Responsive design using Tailwind CSS.
+
+Error handling for invalid city names and network issues.
+
+Recent searches stored in localStorage.
+
+Theme toggle (light/dark mode).
+
+Geolocation API to detect user location automatically.
+
+7-day weather forecast displayed in a grid layout.
+
+## Future Improvements (Optional / Stretch Goals):
+
+Multi-language support (i18n).
+
+Enhanced animations and UI/UX improvements.
+
+Custom background images depending on the weather condition.
